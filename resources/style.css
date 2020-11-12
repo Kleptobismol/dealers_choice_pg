@@ -1,0 +1,68 @@
+body {
+    font-family: verdana;
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 2rem;
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: center;
+    background-color: #c1222d;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+h1 > a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.display-bottom {
+    margin-bottom: 0;
+}
+
+.display-top {
+    margin-top: 0;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: black;
+}
+
+#omegalul {
+    justify-self: center;
+    width: 50%;
+    height: 40rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
